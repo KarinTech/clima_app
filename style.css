@@ -5,7 +5,7 @@
 
 :root {
   --bg-color: #100562;
-  --text-color: #F3F6F5;
+  --text-color: #1b0800;
   font-size: 18px;
 }
 
@@ -34,19 +34,27 @@ footer {
 }
 
 .search-form {
-  margin: 20px 20px;
+  margin: 10px 20px;
 }
 
+.search-form img {
+ margin-left: 15%;
+}
+.search-form h2 {
+  justify-content: center;
+}
 .searchbox {
   padding: 10px 20px;
   background-color: var(--text-color);
   max-width: 480px;
+  max-height: 100px;
   margin: 0px auto;
   border-radius: 3px;
 }
 
 .search {
   width: 100%;
+  max-height: ;
   background-color: var(--text-color);
   border: none;
   font-size: 1rem;
@@ -99,7 +107,7 @@ footer {
   font-size: 1.8rem;
   margin-bottom: 1rem;
 }
-=======
+
 * {
   font-family: 'Lato', sans-serif;
 }
@@ -128,18 +136,19 @@ p {
 footer {
   position: fixed;
   bottom: 0;
-  padding: 20px 0px;
-  border-top: 1px solid black;
+  padding: 5px 0px;
   width: 100%;
   text-align: center;
 }
-
+.footer p {
+  line-height: 0.5rem;
+}
 .search-form {
-  margin: 20px 20px;
+  margin: 10px 10px;
 }
 
 .searchbox {
-  padding: 10px 20px;
+  padding: 10px 10px;
   background-color: var(--text-color);
   max-width: 480px;
   margin: 0px auto;
@@ -158,7 +167,8 @@ footer {
 }
 
 .weather-card {
-  margin: 20px 20px;
+  margin: 5px 5px;
+  height: 220px;
   background: var(--text-color);
   color: var(--bg-color);
   padding: 20px;
@@ -200,4 +210,4 @@ footer {
   font-size: 1.8rem;
   margin-bottom: 1rem;
 }
->>>>>>> 362ec294b3bb1afc60d5f53379a6c2c08762e819
+
